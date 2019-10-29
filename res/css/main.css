@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{margin: 0;padding: 0;}
+
+.background{
+    background: url("res/img/back.jpg") fixed cover;
+}
+
+.search-area{
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
+}
+.search{
+    width: 65%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+.search-content{
+    padding-top: 20px;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    display: block;
+    height: 45px !important;
+    width: 85% !important;
+    float: left;
+}
+.search-button{
+    height: 45px !important;
+    width: 15% !important;
+    display: block;
+    float: right;
+}
