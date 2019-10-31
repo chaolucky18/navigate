@@ -11,6 +11,7 @@ body{
     position: absolute;
     z-index: -1;
     backdrop-filter: saturate(180%) blur(5px);
+    -webkit-backdrop-filter: saturate(180%) blur(5px);
 }
 .search-area{
     width: 60%;
@@ -19,8 +20,19 @@ body{
     height: auto;
     margin: 0 auto;
 }
+#time{
+    height: auto;
+    width: 100%;
+    font-family: "weiruanyahei";
+    padding-top: 3%;
+    padding-bottom: 8px;
+    color: white;
+    font-size: 58px;
+    letter-spacing: 7px;
+    text-align: center;
+}
 .search-box{
-    padding: 13% 10% 5%;
+    padding: 2.5% 10% 5%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -38,20 +50,21 @@ body{
     list-style-type: none;
     color: rgba(255,255,255,0.75);
     float: left;
-    margin-right: -3px;
-    width: 60px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    width: auto;
     height: 20px;
     cursor: pointer;
     transition: 500ms ease all;
 }
 .search-type-focus{
     font-size: 16px;
-    width: 70px !important;
     margin: 0 5px;
     color: rgba(255,255,255,1) !important;
 }
 .search-bardiv{
     width: 100%;
+    position: relative;
 }
 .search-bardiv > input{
     width: 100% !important;
@@ -65,5 +78,38 @@ body{
     min-width: 1200px;
     max-width: 1300px;
     border: 1px solid red;
+}
+#content{
+    padding-left: 110px;
+}
+#select{
+    position: absolute;
+    width: 100px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    padding-left: 5px;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.pic-info{
+    position: absolute;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+}
+.pic-info > p{
+    color: white;
+    text-align: center;
+}
+.pic-info> p:first-child{
+    margin-bottom: 2px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.pic-info>p:last-child{
+    font-size: 8px;
 }
 

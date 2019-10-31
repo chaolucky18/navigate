@@ -12,23 +12,25 @@
 <body>
     <div class="background-cover"></div>
     <div class="search-area">
+        <div>
+            <p id="time">00:00:00</p>
+        </div>
         <div class="search-box">
             <div class="search-type">
-                <ul>
-                    <li class="search-type-focus" data-type='0'>网页</li>
-                    <li class data-type='1'>图片</li>
-                    <li class data-type='2'>新闻</li>
-                    <li class data-type='3'>B站</li>
-                    <li class data-type='4'>菜鸟教程</li>
-                </ul>
+                <ul><!-- 搜索类型 --></ul>
             </div>
             <div class="search-bardiv">
                 <input id="content" class="search-bar form-control" type="" placeholder="请输入搜索内容后双击或回车">
+                <select id="select" class="form-control"><!-- 搜索方式 --></select>
             </div>
         </div>
     </div>
     <div class="item-list">
-            
+    <!-- 底部图片信息展示 -->
+    </div>
+    <div class="pic-info">
+        <p></p>
+        <p></p>
     </div>
 
     
@@ -37,7 +39,9 @@
 <!-- jQuery Cookie-->
 <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <!-- BootStrap JS -->
-<script src="res/js/jquery.cookie.min.js"></script>
+<script src="res/js/bootstrap.min.js"></script>
+<!-- SweetAlert -->
+<script src="res/js/sweetalert.min.js"></script>
 <!-- 自定义JS -->
 <script src="res/js/main.js"></script>
 </body>

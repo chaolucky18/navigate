@@ -1,0 +1,41 @@
+{
+    "网页":{
+        "百度":"https://www.baidu.com/s?ie=utf-8&wd=",
+        "360":"https://www.so.com/s?ie=utf-8&q=",
+        "搜狗":"https://www.sogou.com/web?query=",
+        "Bing":"https://cn.bing.com/search?q=",
+        "神马":"https://m.sm.cn/s?q=",
+        "Google":"https://www.google.com/search?q="
+    },
+
+    "图片":{
+        "百度":"http://image.baidu.com/search/index?tn=baiduimage&word=",
+        "360":"https://image.so.com/i?q=",
+        "搜狗":"https://pic.sogou.com/pics?query=",
+        "Google":"https://www.google.com.hk/search?newwindow=1&hl=zh-CN&tbm=isch&q="
+    },
+
+    "新闻":{
+        "百度":"https://www.baidu.com/s?&tn=news&word=",
+        "360":"https://news.so.com/ns?q=",
+        "搜狗":"https://news.sogou.com/news?ie=utf8&query=",
+        "微博":"https://s.weibo.com/weibo/"
+    },
+
+    "B站":{
+        "url":"https://search.bilibili.com/all?from_source=banner_search&keyword="
+    },
+
+    "菜鸟教程":{
+        "url":"https://www.runoob.com/?s="
+    },
+
+    "其他":{
+        "高德":"https://www.amap.com/search?query=",
+        "GitHub":"https://github.com/search?q=",
+        "公众号":"https://weixin.sogou.com/weixin?type=1&query=",
+        "微信内容":"https://weixin.sogou.com/weixin?type=2&query=",
+        "知乎":"https://www.zhihu.com/search?type=content&q=",
+        "简书":"https://www.jianshu.com/search?q="
+    }
+}
