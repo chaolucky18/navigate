@@ -8,13 +8,15 @@ $(document).ready(function(){
         method: 'get',
         dataType: 'json',
         success: function(res){
-            console.log(res.title);
+            console.log(res.title); 
             $('body').eq(0).css('background','url('+ res.url +')');
         }
     });
 
     // 存储搜索方式
     var num = 0;
+    var type = {};
+
     var type = [{"name":"百度","url":"https://www.baidu.com/s?ie=utf-8&wd="},
                 {"name":"图片","url":"http://image.baidu.com/search/index?tn=baiduimage&word="},
                 {"name":"新闻","url":"https://www.baidu.com/s?&tn=news&word="},
@@ -34,8 +36,8 @@ var Search = function(){
     
     // 获取搜索类型
     var type = $(".search-type-focus").data("type");
-    // 获取类型的地址
-    var url = localStorage.getItem("item_" + type).split(",")[1] + val;
+    // 获取该类型的搜索方式
+    
     // 搜索
     window.open(url);
 }
