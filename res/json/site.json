@@ -1,0 +1,44 @@
+{
+    "site":[
+        {
+            "name":"轻量应用服务器管理控制台",
+            "icon":"https://account.aliyun.com/images/favicon.png",
+            "url":"https://swas.console.aliyun.com/?spm=5176.2020520101.aliyun_sidebar.daliyun_sidebar_swas.37f34df5K4usFI#/server/e18183ecd7704047940904354a80f9bc/cn-shanghai/dashboard"
+        },
+        {
+            "name":"思悟博客 - 爱好，实践，创新",
+            "icon":"https://chaolucky.com/blog/favicon.ico",
+            "url":"https://chaolucky.com/"
+        },
+        {
+            "name":"Google Camera Port",
+            "icon":"https://www.celsoazevedo.com/apple-touch-icon.png",
+            "url":"https://www.celsoazevedo.com/files/android/google-camera/"
+        },
+        {
+            "name":"二维码开放平台_联图二维码",
+            "icon":"https://www.liantu.com/favicon.ico",
+            "url":"https://www.liantu.com/pingtai/"
+        },
+        {
+            "name":"回形针手册",
+            "icon":"https://ipaperclip.net/lib/tpl/starter/images/favicon.ico",
+            "url":"https://ipaperclip.net/"
+        },
+        {
+            "name":"草料二维码生成器",
+            "icon":"https://static.clewm.net/static/images/favicon.ico",
+            "url":"https://cli.im/"
+        },
+        {
+            "name":"Lookao",
+            "icon":"https://static.lookao.com/img/logo_home_2x.aabc51.png",
+            "url":"https://lookao.com/"
+        },
+        {
+            "name":"免费天气API接口|天气预报iframe插件|实况天气接口|国外天气接口|机场天气接口 - TianqiAPI.com",
+            "icon":"https://www.tianqiapi.com/favicon.ico",
+            "url":"https://www.tianqiapi.com/"
+        }
+    ]
+}

@@ -5,7 +5,8 @@
         "搜狗":"https://www.sogou.com/web?query=",
         "Bing":"https://cn.bing.com/search?q=",
         "神马":"https://m.sm.cn/s?q=",
-        "Google":"https://www.google.com/search?q="
+        "Google":"https://www.google.com/search?q=",
+        "Lookao":"https://lookao.com/search?q="
     },
 
     "图片":{

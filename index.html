@@ -11,6 +11,13 @@
 </head>
 <body>
     <div class="background-cover"></div>
+    <div id="weather" class="weather">
+        <div class="weather-img"><img src="" width="80"></div>
+        <div class="weather-text">
+            <p></p>
+            <p></p>
+        </div>
+    </div>
     <div class="search-area">
         <div>
             <p id="time">00:00:00</p>
@@ -22,12 +29,16 @@
             <div class="search-bardiv">
                 <input id="content" class="search-bar form-control" type="" placeholder="请输入搜索内容后双击或回车">
                 <select id="select" class="form-control"><!-- 搜索方式 --></select>
+                <div id="keywords" style="display: none;"><!-- 关键词联想 --></div>
             </div>
         </div>
     </div>
     <div class="item-list">
-    <!-- 底部图片信息展示 -->
+        <div id="item-box">
+
+        </div>
     </div>
+    <!-- 底部图片信息展示 -->
     <div class="pic-info">
         <p></p>
         <p></p>
@@ -36,8 +47,6 @@
     
 <!-- jQuery-->
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<!-- jQuery Cookie-->
-<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <!-- BootStrap JS -->
 <script src="res/js/bootstrap.min.js"></script>
 <!-- SweetAlert -->
